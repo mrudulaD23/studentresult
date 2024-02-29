@@ -14,6 +14,21 @@ include('includes/config.php');
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+         <style>
+        /* Chatbot button style */
+        #chatbot-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 9999;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            cursor: pointer;
+        }
+    </style>
     </head>
     <body>
         <!-- Responsive navbar-->
@@ -72,5 +87,18 @@ foreach($results as $result)
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+    <button id="chatbot-button">Chat</button>
+    <!-- Chatbot iframe -->
+    <iframe id="chatbot-frame" src="https://webchat.botframework.com/embed/studentsys-bot?s=0s7F3BER99s.DImyDrnD7kfMahin_9H34cXj9L9k2wnaKDjKT0J6Gzw" style="display: none; height: 502px; max-height: 502px;"></iframe>
+     <script>
+        document.getElementById('chatbot-button').addEventListener('click', function() {
+            var chatbotFrame = document.getElementById('chatbot-frame');
+            if (chatbotFrame.style.display === 'none') {
+                chatbotFrame.style.display = 'block';
+            } else {
+                chatbotFrame.style.display = 'none';
+            }
+        });
+    </script>
     </body>
 </html>
