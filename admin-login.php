@@ -39,7 +39,7 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
         <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" >
         <link rel="stylesheet" href="css/font-awesome.min.css" media="screen" >
         <link rel="stylesheet" href="css/animate-css/animate.min.css" media="screen" >
-        <link rel="stylesheet" href="css/prism/prism.css" media="screen" > <!-- USED FOR DEMO HELP - YOU CAN REMOVE IT -->
+        <link rel="stylesheet" href="css/prism/prism.css" media="screen" > 
         <link rel="stylesheet" href="css/main.css" media="screen" >
         <script src="js/modernizr/modernizr.min.js"></script>
     </head>
@@ -93,29 +93,29 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
                                                  
                                                 </div>
                                             </div>
-                                            <!-- /.panel -->
+                                        
                                             <p class="text-muted text-center"><small>Student Result Management System</small></p>
                                         </div>
-                                        <!-- /.col-md-11 -->
+                                        
                                     </div>
-                                    <!-- /.row -->
+                                    
                                 </div>
-                                <!-- /.col-md-12 -->
+                                
                             </div>
-                            <!-- /.row -->
+                            
                         </section>
 
                     </div>
-                    <!-- /.col-md-6 -->
+                
                 </div>
-                <!-- /.row -->
+                
             </div>
-            <!-- /. -->
+            
 
         </div>
-        <!-- /.main-wrapper -->
+        
 
-        <!-- ========== COMMON JS FILES ========== -->
+        
         <script src="js/jquery/jquery-2.2.4.min.js"></script>
         <script src="js/jquery-ui/jquery-ui.min.js"></script>
         <script src="js/bootstrap/bootstrap.min.js"></script>
@@ -123,9 +123,9 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
         <script src="js/lobipanel/lobipanel.min.js"></script>
         <script src="js/iscroll/iscroll.js"></script>
 
-        <!-- ========== PAGE JS FILES ========== -->
+        
 
-        <!-- ========== THEME JS ========== -->
+        
         <script src="js/main.js"></script>
         <script>
             $(function(){
@@ -133,6 +133,6 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
             });
         </script>
 
-        <!-- ========== ADD custom.js FILE BELOW WITH YOUR CHANGES ========== -->
+        
     </body>
 </html>

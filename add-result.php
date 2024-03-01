@@ -222,7 +222,7 @@ foreach($results as $result)
             </div>
             
         </div>
-        
+        <!-- /.main-wrapper -->
         <script src="js/jquery/jquery-2.2.4.min.js"></script>
         <script src="js/bootstrap/bootstrap.min.js"></script>
         <script src="js/pace/pace.min.js"></script>
