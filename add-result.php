@@ -90,7 +90,7 @@ function getresult(val,clid)
 var clid=$(".clid").val();
 var val=$(".stid").val();;
 var abh=clid+'$'+val;
-//alert(abh);
+
     $.ajax({
         type: "POST",
         url: "get_student.php",
@@ -108,15 +108,15 @@ var abh=clid+'$'+val;
     <body class="top-navbar-fixed">
         <div class="main-wrapper">
 
-            <!-- ========== TOP NAVBAR ========== -->
+            
   <?php include('includes/topbar.php');?> 
-            <!-- ========== WRAPPER FOR BOTH SIDEBARS & MAIN CONTENT ========== -->
+            
             <div class="content-wrapper">
                 <div class="content-container">
 
-                    <!-- ========== LEFT SIDEBAR ========== -->
+                    
                    <?php include('includes/leftbar.php');?>  
-                    <!-- /.left-sidebar -->
+                    
 
                     <div class="main-page">
 
@@ -127,9 +127,9 @@ var abh=clid+'$'+val;
                                 
                                 </div>
                                 
-                                <!-- /.col-md-6 text-right -->
+                                
                             </div>
-                            <!-- /.row -->
+                            
                             <div class="row breadcrumb-div">
                                 <div class="col-md-6">
                                     <ul class="breadcrumb">
@@ -140,7 +140,7 @@ var abh=clid+'$'+val;
                                 </div>
                              
                             </div>
-                            <!-- /.row -->
+                            
                         </div>
                         <div class="container-fluid">
                            
@@ -214,15 +214,15 @@ foreach($results as $result)
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- /.col-md-12 -->
+                                    
                                 </div>
                     </div>
                 </div>
-                <!-- /.content-container -->
+                
             </div>
-            <!-- /.content-wrapper -->
+            
         </div>
-        <!-- /.main-wrapper -->
+        
         <script src="js/jquery/jquery-2.2.4.min.js"></script>
         <script src="js/bootstrap/bootstrap.min.js"></script>
         <script src="js/pace/pace.min.js"></script>
